@@ -16,17 +16,33 @@ University of Pittsburgh
 
 ------
 
-### Technical {#technical}
+### Tech Skills {#technical}
 
-* __Great with__: Python (analytics and web development)
+* Full Stack Web
+: Deep knowledge of the Python web ecosystem. Decent with frontend JavaScript libraries like Backbone, D3, and Leaflet. Experience deploying applications on AWS across multiple servers.
 
-* __Decent with__: C, C++, Rust, Java, JavaScript (JQuery, D3.js)
+* Data Engineering
+: Data munging and machine learning with the numerical Python stack (pandas, scikit-learn). Database design and administration with PostgreSQL.
 
-* __Have Played with__: Ruby (Rails), LISP (scheme)
+* The Rest
+: Obsessed with good testing and test automation. Hobbyist systems programmer - very fond of Rust. Love speaking at meetups and mentoring new programmers.
 
 ------
 
 ### Experience {#experience}
+
+University of Chicago Urban Center for Computation and Data
+: *Lead Software Engineer - Plenar.io*
+  __September 2015 - Present__
+  Led development of Plenario ([site](http://plenar.io/) | [code](https://github.com/UrbanCCD-UChicago/plenario)), a hub for open data about cities that eases data preparation and discovery work for policy makers and urban scientists. Our API supports projects like [OpenGrid](http://opengrid.io). 
+
+  Expanded range of supported geospatial data from points (like crime reports at a specific place and time) to polygons (like neighborhood boundaries) and line segments (like streets).
+
+  Optimized code and revamped AWS deployment to take our max concurrent users from several hundred to several thousand.
+
+  Supervised two student engineers, providing mentorship and delegating development tasks.
+
+  Tools used: PostgreSQL with PostGIS | Python with Flask and SQLAlchemy | JavaScript with Backbone and Leaflet.
 
 Rockwell Automation
 : *Software Engineering Co-op*
@@ -47,15 +63,9 @@ Rockwell Automation
 
   Helped start mentoring program and personally mentored five beginners.
 
-Pitt Public Health Dynamics Laboratory
-: *Undergraduate Research Fellow*
-  __January 2012 - December 2013__
-  Developed Markov model to compare costs and benefits of pertussis vaccination strategies for healthcare workers.
-
-
 ------
 
-### Showcase Projects {#projects}
+### Undergrad Showcase Projects {#projects}
 
 Chi-Learn
 : *Given a history of crime in Chicago up to today, predict which neighborhoods will see a violent crime tomorrow.*
@@ -70,10 +80,3 @@ SwipeMe
 
   Sellers send an SMS to the service when they are available to swipe in a buyer with their student ID. Buyers send a text when they arrive to get matched with a seller.
   Used Python, Twilio, Google App Engine.
-
-Rust Language Regex Library
-: *Improving performance of regular expression matching for the Rust programming language.*
-  [Issue Tracker](https://github.com/rust-lang/regex/issues/66)
-
-  Work in progress. Implementing a DFA-based matching engine to complement
-  the existing NFA-based engine.
